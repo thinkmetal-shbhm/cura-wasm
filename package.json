@@ -1,5 +1,5 @@
 {
-  "name": "cura-wasm",
+  "name": "cura-wasm-tkml",
   "version": "0.0.1",
   "description": "Cura Engine powered by Web Assembly (WASM)",
   "main": "dist/cjs.js",

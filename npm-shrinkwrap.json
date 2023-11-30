@@ -1,11 +1,12 @@
 {
   "name": "cura-wasm",
-  "version": "1.5.2",
+  "version": "0.0.1",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
-      "version": "1.5.2",
+      "name": "cura-wasm",
+      "version": "0.0.1",
       "license": "(MIT AND LGPL-3.0-or-later AND AGPL-3.0-or-later)",
       "dependencies": {
         "observable-fns": "^0.5.1",
@@ -1389,7 +1390,6 @@
       "dependencies": {
         "anymatch": "~3.1.1",
         "braces": "~3.0.2",
-        "fsevents": "~2.1.2",
         "glob-parent": "~5.1.0",
         "is-binary-path": "~2.1.0",
         "is-glob": "~4.0.1",
@@ -1436,7 +1436,6 @@
       "integrity": "sha512-7Qg2Jrep1S/+Q3EceiZtQcDPWxhAvBw+ERf1162v4sikJrvojMHFqXt8QIVha8UlH9rgU0BeWPytZ9/TzYqlUw==",
       "dev": true,
       "dependencies": {
-        "colors": "^1.1.2",
         "object-assign": "^4.1.0",
         "string-width": "^2.1.1"
       },
@@ -3848,9 +3847,6 @@
       "resolved": "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz",
       "integrity": "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=",
       "dev": true,
-      "dependencies": {
-        "graceful-fs": "^4.1.6"
-      },
       "optionalDependencies": {
         "graceful-fs": "^4.1.6"
       }
@@ -5573,9 +5569,6 @@
       "resolved": "https://registry.npmjs.org/rollup/-/rollup-2.37.1.tgz",
       "integrity": "sha512-V3ojEeyGeSdrMSuhP3diBb06P+qV4gKQeanbDv+Qh/BZbhdZ7kHV0xAt8Yjk4GFshq/WjO7R4c7DFM20AwTFVQ==",
       "dev": true,
-      "dependencies": {
-        "fsevents": "~2.1.2"
-      },
       "bin": {
         "rollup": "dist/bin/rollup"
       },
@@ -6328,8 +6321,7 @@
         "callsites": "^3.1.0",
         "debug": "^4.1.1",
         "is-observable": "^1.1.0",
-        "observable-fns": "^0.5.1",
-        "tiny-worker": ">= 2"
+        "observable-fns": "^0.5.1"
       },
       "optionalDependencies": {
         "tiny-worker": ">= 2"

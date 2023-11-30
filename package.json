@@ -1,6 +1,6 @@
 {
   "name": "cura-wasm",
-  "version": "1.5.2",
+  "version": "0.0.1",
   "description": "Cura Engine powered by Web Assembly (WASM)",
   "main": "dist/cjs.js",
   "module": "dist/es.js",
@@ -26,21 +26,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cloud-CNC/cura-wasm.git"
+    "url": "git+https://github.com/thinkmetal-shbhm/cura-wasm.git"
   },
-  "keywords": [
-    "gcode",
-    "gcode-slicer",
-    "cura",
-    "cura-engine",
-    "cloud-cnc"
-  ],
-  "author": "Cloud CNC",
   "license": "(MIT AND LGPL-3.0-or-later AND AGPL-3.0-or-later)",
-  "bugs": {
-    "url": "https://github.com/Cloud-CNC/cura-wasm/issues"
-  },
-  "homepage": "https://github.com/Cloud-CNC/cura-wasm#readme",
   "dependencies": {
     "observable-fns": "^0.5.1",
     "threads": "^1.6.3",
